@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const GOOGLE_API_KEY = "AIzaSyCUqvkH5UMvY94D5yeUbdlwYWrXeIA9TMw"; // Replace with your API key
+const GOOGLE_API_KEY = ""; // Replace with your API key
 
 async function translateText(text, targetLanguage) {
   try {
