@@ -9,7 +9,7 @@ import errorHandler from "./middleware/errorMiddleware.js";
 dotenv.config();
 
 // Connect to MongoDB
-// connectDB();
+connectDB();
 
 const app = express();
 

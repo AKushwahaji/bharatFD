@@ -1,5 +1,5 @@
 
-import redisClient from "../config/redisClient.js";
+import redisClient from "../config/redis.js";
 
 const cacheMiddleware = async (req, res, next) => {
   const lang = req.query.lang || "en";
